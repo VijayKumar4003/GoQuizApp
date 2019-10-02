@@ -11,4 +11,3 @@ Whose link is : https://youtu.be/FeSiqm_Oz1U
 
 To get better idea how this app is create you can watch the entire series on YouTube.
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/AsP1l1V"><a href="//imgur.com/a/AsP1l1V"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
