@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/main_background"
+    android:gravity="center"
+    tools:context=".ResultAcitvity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Result of GoQuiz "
+        android:textColor="@color/FontColor"
+        android:textAlignment="center"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:padding="10dp"
+        android:layout_marginBottom="50dp"
+        android:textStyle="bold"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="30dp"
+        android:paddingStart="30dp"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/result_bg"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/result_tv_HighScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="High Score: "
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/result_tv_Num_of_Ques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Total Quesions :"
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/result_tv_correct_Ques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correct: "
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:id="@+id/result_tv_wrong_Ques"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wrong: "
+            android:textColor="#000"
+            android:textSize="25sp"
+            android:padding="10dp"
+            android:textAlignment="textStart"
+            android:textStyle="bold"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/bt_result_play_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/dialog_bt_bg"
+                android:padding="10dp"
+                android:text="Play Again"
+                android:layout_marginEnd="10dp"
+                android:textAllCaps="false"
+                android:textColor="@color/dialogColor"
+                android:textSize="20sp" />
+            <Button
+                android:id="@+id/bt_result_main_menu"
+                android:text="Main Menu"
+                android:textAllCaps="false"
+                android:textSize="20sp"
+                android:layout_marginStart="10dp"
+                android:layout_weight="1"
+                android:textColor="@color/dialogColor"
+                android:background="@drawable/dialog_bt_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

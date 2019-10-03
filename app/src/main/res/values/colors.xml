@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5A5850</color>
+    <color name="colorPrimaryDark">#3D3D37</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="bg_Color">#ecdaa3</color>
+    <color name="timerFontColor">#CEC2C2</color>
+    <color name="FontColor">#CEC2C2</color>
+    <color name="dialogColor">#FCFCFC</color>
+</resources>
